@@ -14,7 +14,7 @@
 - Сравняване на горните два подхода с невронна мрежа тип Encoder (напр. BERT).
 - Потребителски интерфейс със streamlit.
 
-Requeirements to run:
+# Requeirements to run:
 
 nltk.download('stopwords')
 
@@ -22,12 +22,12 @@ nltk.download('punkt')
 
 
 
-To run:
+# To run:
 With active venv:
 There are 2 ways to run:
 
 
-1: Models training and evalutains
+# 1: Models training and evalutains
 
 python main.py
 
@@ -44,6 +44,6 @@ Do NOT run with "--build_bert" as it is very memory intensive. This was run in g
 
 
 
-2: User Interface using one of the models in from 1
+# 2: User Interface using one of the models in from 1
 
 streamlit run streamlit_app.py
