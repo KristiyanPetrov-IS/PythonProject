@@ -14,6 +14,13 @@
 - Сравняване на горните два подхода с невронна мрежа тип Encoder (напр. BERT).
 - Потребителски интерфейс със streamlit.
 
+# Data:
+https://www.kaggle.com/datasets/andrewmvd/trip-advisor-hotel-reviews
+
+# Glove:
+https://www.kaggle.com/datasets/rtatman/glove-global-vectors-for-word-representation?resource=download
+
+
 # Requeirements to run:
 
 nltk.download('stopwords')
