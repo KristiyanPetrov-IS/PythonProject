@@ -15,7 +15,9 @@
 - Потребителски интерфейс със streamlit.
 
 Requeirements to run:
+
 nltk.download('stopwords')
+
 nltk.download('punkt')
 
 To run:
@@ -23,11 +25,14 @@ With active venv:
 There are 2 ways to run:
 
 1: Models training and evalutains
+
 python main.py
+
 Has options: 
---lemmatization
---train_w2v
---build_bert
+--lemmatization 
+--train_w2v 
+--build_bert 
+
 train_w2v needs to be called on the first run. 
 
 Runs with options have increased runtime 
@@ -36,4 +41,5 @@ Do NOT run with "--build_bert" as it is very memory intensive. This was run in g
 
 
 2: User Interface using one of the models in from 1
+
 streamlit run streamlit_app.py
