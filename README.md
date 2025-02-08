@@ -29,8 +29,11 @@ Has options:
 --train_w2v
 --build_bert
 train_w2v needs to be called on the first run. 
+
 Runs with options have increased runtime 
+
 Do NOT run with "--build_bert" as it is very memory intensive. This was run in google colab. Results are in png files.
+
 
 2: User Interface using one of the models in from 1
 streamlit run streamlit_app.py
