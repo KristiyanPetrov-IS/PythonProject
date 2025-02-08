@@ -1,0 +1,8 @@
+[TYPECHECK]
+ignored-modules=tensorflow
+
+[DESIGN]
+max-locals=30 
+
+[MESSAGES CONTROL]
+disable=unbalanced-tuple-unpacking
